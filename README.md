@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-In this lab, I created an Active Directory home lab Environment using Oracle Virtual Box.  This developed my understanding of how home directory and Windows networking work. I simulated an Enterprise Network Deployment in HomeLab: Setup a Domain Controller, Active Directory, and 1000+ Users using PowerShell Script.
+In this lab, I created an Active Directory home lab Environment using Oracle Virtual Box.  This developed my understanding of how home directory and Windows networking work. I simulated an Enterprise Network Deployment in HomeLab: Setup a Domain Controller, Active Directory, and 1000+ Users using PowerShell Script. This concept was to allow all clients/ computers added to the domain to communicate with the Domain controller through the internal NIC and the DC to internet NIC for the clients to get internet access.
 This entails the following:
 
 - <b>Active Directory Domain Services/ Domain: This allows admins to manage and store information about resources from the network.</b> 
@@ -26,31 +26,35 @@ This entails the following:
 
 <p align="center">
 The different network interfaces cards used: <br/>
-<img src="https://i.imgur.com/urHL9vu"/>
+<img src="https://imgur.com/nrxZXHg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Server Manager Dashboard:  <br/>
+<img src="https://imgur.com/uW1DPYr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Login into created Admin Account:  <br/>
+<img src="https://imgur.com/ZOGOm7Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Names to be added to Active Directory: <br/>
+<img src="https://imgur.com/pFpKXFB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Use of Powershell script to create users:  <br/>
+<img src="https://i.imgur.com/.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+One of the created users:  <br/>
+<img src="https://imgur.com/DSlA165.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Already added Windows 10 client to the domain:  <br/>
+<img src="https://imgur.com/1PrdbZW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Testing connectivity to the domain and internet:  <br/>
+<img src="https://imgur.com/U74Is1x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
