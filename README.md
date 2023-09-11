@@ -41,6 +41,10 @@ Names to be added to Active Directory: <br/>
 <img src="https://imgur.com/pFpKXFB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Creating Users using PowerShell Script: <br/>
+<img src="https://imgur.com/V1pOUat.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 One of the created users:  <br/>
 <img src="https://imgur.com/DSlA165.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
